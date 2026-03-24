@@ -3,33 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7400A3A92F7323E9006B47E2 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3892F7323E9006B47E2 /* AchievementsView.swift */; };
+		7400A3AA2F7323E9006B47E2 /* ActivityHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */; };
+		7400A3AB2F7323E9006B47E2 /* ActivityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */; };
+		7400A3AC2F7323E9006B47E2 /* AdventureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */; };
+		7400A3AD2F7323E9006B47E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38D2F7323E9006B47E2 /* AppDelegate.swift */; };
+		7400A3AE2F7323E9006B47E2 /* AppPolicyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */; };
+		7400A3AF2F7323E9006B47E2 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38F2F7323E9006B47E2 /* AppStorage.swift */; };
+		7400A3B02F7323E9006B47E2 /* CavernEchoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */; };
+		7400A3B12F7323E9006B47E2 /* CavernEchoesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */; };
+		7400A3B22F7323E9006B47E2 /* CavernTonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */; };
+		7400A3B32F7323E9006B47E2 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3942F7323E9006B47E2 /* Color+App.swift */; };
+		7400A3B42F7323E9006B47E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3952F7323E9006B47E2 /* ContentView.swift */; };
+		7400A3B52F7323E9006B47E2 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3962F7323E9006B47E2 /* GameModels.swift */; };
+		7400A3B62F7323E9006B47E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3972F7323E9006B47E2 /* HomeView.swift */; };
+		7400A3B72F7323E9006B47E2 /* LostTempleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39B2F7323E9006B47E2 /* LostTempleView.swift */; };
+		7400A3B82F7323E9006B47E2 /* LostTempleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */; };
+		7400A3B92F7323E9006B47E2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39F2F7323E9006B47E2 /* MainTabView.swift */; };
+		7400A3BA2F7323E9006B47E2 /* MysticForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A02F7323E9006B47E2 /* MysticForestView.swift */; };
+		7400A3BB2F7323E9006B47E2 /* MysticForestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */; };
+		7400A3BC2F7323E9006B47E2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A22F7323E9006B47E2 /* OnboardingView.swift */; };
+		7400A3BD2F7323E9006B47E2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A32F7323E9006B47E2 /* RootView.swift */; };
+		7400A3BE2F7323E9006B47E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */; };
+		7400A3BF2F7323E9006B47E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A52F7323E9006B47E2 /* SettingsView.swift */; };
+		7400A3C02F7323E9006B47E2 /* SharedAdventureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */; };
+		7400A3C12F7323E9006B47E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A72F7323E9006B47E2 /* ViewController.swift */; };
+		7400A3C22F7323E9006B47E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7400A3902F7323E9006B47E2 /* Assets.xcassets */; };
+		7400A3C42F7323E9006B47E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */; };
+		7400A3C52F7323E9006B47E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7400A39E2F7323E9006B47E2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		358E2DD530893AF5478154A7 /* Pods_PargrexslulmorBrelden.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PargrexslulmorBrelden.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PargrexslulmorBrelden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7400A3892F7323E9006B47E2 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHubView.swift; sourceTree = "<group>"; };
+		7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultView.swift; sourceTree = "<group>"; };
+		7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureHomeView.swift; sourceTree = "<group>"; };
+		7400A38D2F7323E9006B47E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPolicyLink.swift; sourceTree = "<group>"; };
+		7400A38F2F7323E9006B47E2 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		7400A3902F7323E9006B47E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesView.swift; sourceTree = "<group>"; };
+		7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesViewModel.swift; sourceTree = "<group>"; };
+		7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernTonePlayer.swift; sourceTree = "<group>"; };
+		7400A3942F7323E9006B47E2 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		7400A3952F7323E9006B47E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7400A3962F7323E9006B47E2 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		7400A3972F7323E9006B47E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7400A3982F7323E9006B47E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7400A3992F7323E9006B47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7400A39B2F7323E9006B47E2 /* LostTempleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleView.swift; sourceTree = "<group>"; };
+		7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleViewModel.swift; sourceTree = "<group>"; };
+		7400A39D2F7323E9006B47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7400A39F2F7323E9006B47E2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7400A3A02F7323E9006B47E2 /* MysticForestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestView.swift; sourceTree = "<group>"; };
+		7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestViewModel.swift; sourceTree = "<group>"; };
+		7400A3A22F7323E9006B47E2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7400A3A32F7323E9006B47E2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7400A3A52F7323E9006B47E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAdventureUI.swift; sourceTree = "<group>"; };
+		7400A3A72F7323E9006B47E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ADD5D90902285A152E358F9 /* Pods-PargrexslulmorBrelden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PargrexslulmorBrelden.release.xcconfig"; path = "Target Support Files/Pods-PargrexslulmorBrelden/Pods-PargrexslulmorBrelden.release.xcconfig"; sourceTree = "<group>"; };
+		BC992493C4F88A6D2F4182C6 /* Pods-PargrexslulmorBrelden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PargrexslulmorBrelden.debug.xcconfig"; path = "Target Support Files/Pods-PargrexslulmorBrelden/Pods-PargrexslulmorBrelden.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7400A1E42F72EEBA006B47E2 /* Exceptions for "PargrexslulmorBrelden" folder in "PargrexslulmorBrelden" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7400A1D12F72EEB9006B47E2 /* PargrexslulmorBrelden */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7400A1D42F72EEB9006B47E2 /* PargrexslulmorBrelden */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7400A1E42F72EEBA006B47E2 /* Exceptions for "PargrexslulmorBrelden" folder in "PargrexslulmorBrelden" target */,
-			);
-			path = PargrexslulmorBrelden;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7400A1CF2F72EEB9006B47E2 /* Frameworks */ = {
@@ -45,8 +87,10 @@
 		7400A1C92F72EEB9006B47E2 = {
 			isa = PBXGroup;
 			children = (
-				7400A1D42F72EEB9006B47E2 /* PargrexslulmorBrelden */,
+				7400A3A82F7323E9006B47E2 /* PargrexslulmorBrelden */,
 				7400A1D32F72EEB9006B47E2 /* Products */,
+				D26CB79BE0396BE7261939E6 /* Pods */,
+				D8DFBC9B503E3BE4A696D149 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +102,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7400A3A82F7323E9006B47E2 /* PargrexslulmorBrelden */ = {
+			isa = PBXGroup;
+			children = (
+				7400A3892F7323E9006B47E2 /* AchievementsView.swift */,
+				7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */,
+				7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */,
+				7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */,
+				7400A38D2F7323E9006B47E2 /* AppDelegate.swift */,
+				7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */,
+				7400A38F2F7323E9006B47E2 /* AppStorage.swift */,
+				7400A3902F7323E9006B47E2 /* Assets.xcassets */,
+				7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */,
+				7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */,
+				7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */,
+				7400A3942F7323E9006B47E2 /* Color+App.swift */,
+				7400A3952F7323E9006B47E2 /* ContentView.swift */,
+				7400A3962F7323E9006B47E2 /* GameModels.swift */,
+				7400A3972F7323E9006B47E2 /* HomeView.swift */,
+				7400A3982F7323E9006B47E2 /* Info.plist */,
+				7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */,
+				7400A39B2F7323E9006B47E2 /* LostTempleView.swift */,
+				7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */,
+				7400A39E2F7323E9006B47E2 /* Main.storyboard */,
+				7400A39F2F7323E9006B47E2 /* MainTabView.swift */,
+				7400A3A02F7323E9006B47E2 /* MysticForestView.swift */,
+				7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */,
+				7400A3A22F7323E9006B47E2 /* OnboardingView.swift */,
+				7400A3A32F7323E9006B47E2 /* RootView.swift */,
+				7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */,
+				7400A3A52F7323E9006B47E2 /* SettingsView.swift */,
+				7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */,
+				7400A3A72F7323E9006B47E2 /* ViewController.swift */,
+			);
+			path = PargrexslulmorBrelden;
+			sourceTree = "<group>";
+		};
+		D26CB79BE0396BE7261939E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC992493C4F88A6D2F4182C6 /* Pods-PargrexslulmorBrelden.debug.xcconfig */,
+				9ADD5D90902285A152E358F9 /* Pods-PargrexslulmorBrelden.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8DFBC9B503E3BE4A696D149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358E2DD530893AF5478154A7 /* Pods_PargrexslulmorBrelden.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7400A1E52F72EEBA006B47E2 /* Build configuration list for PBXNativeTarget "PargrexslulmorBrelden" */;
 			buildPhases = (
+				09815DDBD7E568F1476E17E6 /* [CP] Check Pods Manifest.lock */,
 				7400A1CE2F72EEB9006B47E2 /* Sources */,
 				7400A1CF2F72EEB9006B47E2 /* Frameworks */,
 				7400A1D02F72EEB9006B47E2 /* Resources */,
@@ -73,12 +171,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7400A1D42F72EEB9006B47E2 /* PargrexslulmorBrelden */,
-			);
 			name = PargrexslulmorBrelden;
-			packageProductDependencies = (
-			);
 			productName = PargrexslulmorBrelden;
 			productReference = 7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +192,7 @@
 				};
 			};
 			buildConfigurationList = 7400A1CD2F72EEB9006B47E2 /* Build configuration list for PBXProject "PargrexslulmorBrelden" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +200,6 @@
 				Base,
 			);
 			mainGroup = 7400A1C92F72EEB9006B47E2;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7400A1D32F72EEB9006B47E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +214,171 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7400A3C22F7323E9006B47E2 /* Assets.xcassets in Resources */,
+				7400A3C42F7323E9006B47E2 /* LaunchScreen.storyboard in Resources */,
+				7400A3C52F7323E9006B47E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09815DDBD7E568F1476E17E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PargrexslulmorBrelden-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7400A1CE2F72EEB9006B47E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7400A3A92F7323E9006B47E2 /* AchievementsView.swift in Sources */,
+				7400A3AA2F7323E9006B47E2 /* ActivityHubView.swift in Sources */,
+				7400A3AB2F7323E9006B47E2 /* ActivityResultView.swift in Sources */,
+				7400A3AC2F7323E9006B47E2 /* AdventureHomeView.swift in Sources */,
+				7400A3AD2F7323E9006B47E2 /* AppDelegate.swift in Sources */,
+				7400A3AE2F7323E9006B47E2 /* AppPolicyLink.swift in Sources */,
+				7400A3AF2F7323E9006B47E2 /* AppStorage.swift in Sources */,
+				7400A3B02F7323E9006B47E2 /* CavernEchoesView.swift in Sources */,
+				7400A3B12F7323E9006B47E2 /* CavernEchoesViewModel.swift in Sources */,
+				7400A3B22F7323E9006B47E2 /* CavernTonePlayer.swift in Sources */,
+				7400A3B32F7323E9006B47E2 /* Color+App.swift in Sources */,
+				7400A3B42F7323E9006B47E2 /* ContentView.swift in Sources */,
+				7400A3B52F7323E9006B47E2 /* GameModels.swift in Sources */,
+				7400A3B62F7323E9006B47E2 /* HomeView.swift in Sources */,
+				7400A3B72F7323E9006B47E2 /* LostTempleView.swift in Sources */,
+				7400A3B82F7323E9006B47E2 /* LostTempleViewModel.swift in Sources */,
+				7400A3B92F7323E9006B47E2 /* MainTabView.swift in Sources */,
+				7400A3BA2F7323E9006B47E2 /* MysticForestView.swift in Sources */,
+				7400A3BB2F7323E9006B47E2 /* MysticForestViewModel.swift in Sources */,
+				7400A3BC2F7323E9006B47E2 /* OnboardingView.swift in Sources */,
+				7400A3BD2F7323E9006B47E2 /* RootView.swift in Sources */,
+				7400A3BE2F7323E9006B47E2 /* SceneDelegate.swift in Sources */,
+				7400A3BF2F7323E9006B47E2 /* SettingsView.swift in Sources */,
+				7400A3C02F7323E9006B47E2 /* SharedAdventureUI.swift in Sources */,
+				7400A3C12F7323E9006B47E2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7400A3992F7323E9006B47E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7400A39E2F7323E9006B47E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7400A39D2F7323E9006B47E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7400A1E62F72EEBA006B47E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC992493C4F88A6D2F4182C6 /* Pods-PargrexslulmorBrelden.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PargrexslulmorBrelden/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pargrexslulmor Brelden";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.PargrexslulmorBrelden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7400A1E72F72EEBA006B47E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADD5D90902285A152E358F9 /* Pods-PargrexslulmorBrelden.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PargrexslulmorBrelden/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pargrexslulmor Brelden";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.PargrexslulmorBrelden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -252,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -309,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

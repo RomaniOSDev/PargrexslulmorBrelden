@@ -1,0 +1,6 @@
+framework module Pods_PargrexslulmorBrelden {
+  umbrella header "Pods-PargrexslulmorBrelden-umbrella.h"
+
+  export *
+  module * { export * }
+}
