@@ -8,6 +8,7 @@ workflows:
           XCODE_WORKSPACE: "PargrexslulmorBrelden.xcworkspace"
           XCODE_SCHEME: "PargrexslulmorBrelden"
           BUNDLE_ID: "com.far.sgdrtr92df1l"
+            EXTENSION_BUNDLE_ID: "com.far.sgdrtr92df1l.NotificationServiceExtension"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
@@ -24,6 +25,7 @@ workflows:
         - name: Fetch signing files
           script: |
             app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
+            app-store-connect fetch-signing-files $EXTENSION_BUNDLE_ID --type IOS_APP_STORE --create
         - name: Use system default keychain
           script: |
             keychain add-certificates
