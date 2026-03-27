@@ -7,8 +7,8 @@ import Foundation
 
 /// Central place for external policy URLs (replace with your live URLs before release).
 enum AppPolicyLink: String, CaseIterable {
-    case privacyPolicy = "https://example.com/privacy-policy"
-    case termsOfUse = "https://example.com/terms"
+    case privacyPolicy = "https://pargrexslulmorbrelden.com/privacy-policy.html"
+    case termsOfUse = "https://pargrexslulmorbrelden.com/support.html"
 
     var url: URL? {
         URL(string: rawValue)

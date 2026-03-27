@@ -7,69 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7400A3A92F7323E9006B47E2 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3892F7323E9006B47E2 /* AchievementsView.swift */; };
-		7400A3AA2F7323E9006B47E2 /* ActivityHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */; };
-		7400A3AB2F7323E9006B47E2 /* ActivityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */; };
-		7400A3AC2F7323E9006B47E2 /* AdventureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */; };
-		7400A3AD2F7323E9006B47E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38D2F7323E9006B47E2 /* AppDelegate.swift */; };
-		7400A3AE2F7323E9006B47E2 /* AppPolicyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */; };
-		7400A3AF2F7323E9006B47E2 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A38F2F7323E9006B47E2 /* AppStorage.swift */; };
-		7400A3B02F7323E9006B47E2 /* CavernEchoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */; };
-		7400A3B12F7323E9006B47E2 /* CavernEchoesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */; };
-		7400A3B22F7323E9006B47E2 /* CavernTonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */; };
-		7400A3B32F7323E9006B47E2 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3942F7323E9006B47E2 /* Color+App.swift */; };
-		7400A3B42F7323E9006B47E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3952F7323E9006B47E2 /* ContentView.swift */; };
-		7400A3B52F7323E9006B47E2 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3962F7323E9006B47E2 /* GameModels.swift */; };
-		7400A3B62F7323E9006B47E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3972F7323E9006B47E2 /* HomeView.swift */; };
-		7400A3B72F7323E9006B47E2 /* LostTempleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39B2F7323E9006B47E2 /* LostTempleView.swift */; };
-		7400A3B82F7323E9006B47E2 /* LostTempleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */; };
-		7400A3B92F7323E9006B47E2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A39F2F7323E9006B47E2 /* MainTabView.swift */; };
-		7400A3BA2F7323E9006B47E2 /* MysticForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A02F7323E9006B47E2 /* MysticForestView.swift */; };
-		7400A3BB2F7323E9006B47E2 /* MysticForestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */; };
-		7400A3BC2F7323E9006B47E2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A22F7323E9006B47E2 /* OnboardingView.swift */; };
-		7400A3BD2F7323E9006B47E2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A32F7323E9006B47E2 /* RootView.swift */; };
-		7400A3BE2F7323E9006B47E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */; };
-		7400A3BF2F7323E9006B47E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A52F7323E9006B47E2 /* SettingsView.swift */; };
-		7400A3C02F7323E9006B47E2 /* SharedAdventureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */; };
-		7400A3C12F7323E9006B47E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400A3A72F7323E9006B47E2 /* ViewController.swift */; };
-		7400A3C22F7323E9006B47E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7400A3902F7323E9006B47E2 /* Assets.xcassets */; };
-		7400A3C42F7323E9006B47E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */; };
-		7400A3C52F7323E9006B47E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7400A39E2F7323E9006B47E2 /* Main.storyboard */; };
+		744B21792F771B4F00F2A8EB /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21492F771B4F00F2A8EB /* AppsFlyerManager.swift */; };
+		744B217A2F771B4F00F2A8EB /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214A2F771B4F00F2A8EB /* ConfigManager.swift */; };
+		744B217B2F771B4F00F2A8EB /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214B2F771B4F00F2A8EB /* LoadingManager.swift */; };
+		744B217C2F771B4F00F2A8EB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214C2F771B4F00F2A8EB /* LoadingView.swift */; };
+		744B217D2F771B4F00F2A8EB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214D2F771B4F00F2A8EB /* LoadingViewController.swift */; };
+		744B217E2F771B4F00F2A8EB /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214E2F771B4F00F2A8EB /* NetworkAvailability.swift */; };
+		744B217F2F771B4F00F2A8EB /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B214F2F771B4F00F2A8EB /* NoInternetView.swift */; };
+		744B21802F771B4F00F2A8EB /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21502F771B4F00F2A8EB /* NotificationPermissionManager.swift */; };
+		744B21812F771B4F00F2A8EB /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21512F771B4F00F2A8EB /* NotificationPermissionView.swift */; };
+		744B21822F771B4F00F2A8EB /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21522F771B4F00F2A8EB /* NotificationPermissionViewController.swift */; };
+		744B21832F771B4F00F2A8EB /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21532F771B4F00F2A8EB /* PushNotificationURLRouter.swift */; };
+		744B21842F771B4F00F2A8EB /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21542F771B4F00F2A8EB /* UserAgentBuilder.swift */; };
+		744B21852F771B4F00F2A8EB /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21552F771B4F00F2A8EB /* WebviewVC.swift */; };
+		744B21862F771B4F00F2A8EB /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21572F771B4F00F2A8EB /* AchievementsView.swift */; };
+		744B21872F771B4F00F2A8EB /* ActivityHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21582F771B4F00F2A8EB /* ActivityHubView.swift */; };
+		744B21882F771B4F00F2A8EB /* ActivityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21592F771B4F00F2A8EB /* ActivityResultView.swift */; };
+		744B21892F771B4F00F2A8EB /* AdventureHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B215A2F771B4F00F2A8EB /* AdventureHomeView.swift */; };
+		744B218A2F771B4F00F2A8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B215B2F771B4F00F2A8EB /* AppDelegate.swift */; };
+		744B218B2F771B4F00F2A8EB /* AppPolicyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B215C2F771B4F00F2A8EB /* AppPolicyLink.swift */; };
+		744B218C2F771B4F00F2A8EB /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B215D2F771B4F00F2A8EB /* AppStorage.swift */; };
+		744B218D2F771B4F00F2A8EB /* CavernEchoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B215F2F771B4F00F2A8EB /* CavernEchoesView.swift */; };
+		744B218E2F771B4F00F2A8EB /* CavernEchoesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21602F771B4F00F2A8EB /* CavernEchoesViewModel.swift */; };
+		744B218F2F771B4F00F2A8EB /* CavernTonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21612F771B4F00F2A8EB /* CavernTonePlayer.swift */; };
+		744B21902F771B4F00F2A8EB /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21622F771B4F00F2A8EB /* Color+App.swift */; };
+		744B21912F771B4F00F2A8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21632F771B4F00F2A8EB /* ContentView.swift */; };
+		744B21922F771B4F00F2A8EB /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21642F771B4F00F2A8EB /* GameModels.swift */; };
+		744B21932F771B4F00F2A8EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21662F771B4F00F2A8EB /* HomeView.swift */; };
+		744B21942F771B4F00F2A8EB /* LostTempleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B216A2F771B4F00F2A8EB /* LostTempleView.swift */; };
+		744B21952F771B4F00F2A8EB /* LostTempleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B216B2F771B4F00F2A8EB /* LostTempleViewModel.swift */; };
+		744B21962F771B4F00F2A8EB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B216E2F771B4F00F2A8EB /* MainTabView.swift */; };
+		744B21972F771B4F00F2A8EB /* MysticForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B216F2F771B4F00F2A8EB /* MysticForestView.swift */; };
+		744B21982F771B4F00F2A8EB /* MysticForestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21702F771B4F00F2A8EB /* MysticForestViewModel.swift */; };
+		744B21992F771B4F00F2A8EB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21712F771B4F00F2A8EB /* OnboardingView.swift */; };
+		744B219A2F771B4F00F2A8EB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21732F771B4F00F2A8EB /* RootView.swift */; };
+		744B219B2F771B4F00F2A8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21742F771B4F00F2A8EB /* SceneDelegate.swift */; };
+		744B219C2F771B4F00F2A8EB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21752F771B4F00F2A8EB /* SettingsView.swift */; };
+		744B219D2F771B4F00F2A8EB /* SharedAdventureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21762F771B4F00F2A8EB /* SharedAdventureUI.swift */; };
+		744B219E2F771B4F00F2A8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21772F771B4F00F2A8EB /* ViewController.swift */; };
+		744B219F2F771B4F00F2A8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B215E2F771B4F00F2A8EB /* Assets.xcassets */; };
+		744B21A02F771B4F00F2A8EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 744B21652F771B4F00F2A8EB /* GoogleService-Info.plist */; };
+		744B21A22F771B4F00F2A8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B21692F771B4F00F2A8EB /* LaunchScreen.storyboard */; };
+		744B21A32F771B4F00F2A8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B216D2F771B4F00F2A8EB /* Main.storyboard */; };
+		744B21A82F771B5800F2A8EB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B21A52F771B5800F2A8EB /* NotificationService.swift */; };
+		746E08842F7691A200E679AA /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 746E08832F7691A200E679AA /* AppsFlyerLib-Static */; };
+		746E08892F76924800E679AA /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 746E08882F76924800E679AA /* FirebaseMessaging */; };
+		A10000012F80000100000001 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000112F80000100000001 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000022F80000100000001 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A10000222F80000100000001 /* FirebaseMessaging */; };
+		A10000032F80000100000001 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000232F80000100000001 /* FirebaseCore */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A100001A2F80000100000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7400A1CA2F72EEB9006B47E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000142F80000100000001;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000182F80000100000001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000012F80000100000001 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		358E2DD530893AF5478154A7 /* Pods_PargrexslulmorBrelden.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PargrexslulmorBrelden.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PargrexslulmorBrelden.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7400A3892F7323E9006B47E2 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
-		7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHubView.swift; sourceTree = "<group>"; };
-		7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultView.swift; sourceTree = "<group>"; };
-		7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureHomeView.swift; sourceTree = "<group>"; };
-		7400A38D2F7323E9006B47E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPolicyLink.swift; sourceTree = "<group>"; };
-		7400A38F2F7323E9006B47E2 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
-		7400A3902F7323E9006B47E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesView.swift; sourceTree = "<group>"; };
-		7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesViewModel.swift; sourceTree = "<group>"; };
-		7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernTonePlayer.swift; sourceTree = "<group>"; };
-		7400A3942F7323E9006B47E2 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
-		7400A3952F7323E9006B47E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7400A3962F7323E9006B47E2 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
-		7400A3972F7323E9006B47E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		7400A3982F7323E9006B47E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7400A3992F7323E9006B47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7400A39B2F7323E9006B47E2 /* LostTempleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleView.swift; sourceTree = "<group>"; };
-		7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleViewModel.swift; sourceTree = "<group>"; };
-		7400A39D2F7323E9006B47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7400A39F2F7323E9006B47E2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		7400A3A02F7323E9006B47E2 /* MysticForestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestView.swift; sourceTree = "<group>"; };
-		7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestViewModel.swift; sourceTree = "<group>"; };
-		7400A3A22F7323E9006B47E2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		7400A3A32F7323E9006B47E2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7400A3A52F7323E9006B47E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAdventureUI.swift; sourceTree = "<group>"; };
-		7400A3A72F7323E9006B47E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		744B21492F771B4F00F2A8EB /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		744B214A2F771B4F00F2A8EB /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		744B214B2F771B4F00F2A8EB /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		744B214C2F771B4F00F2A8EB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		744B214D2F771B4F00F2A8EB /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		744B214E2F771B4F00F2A8EB /* NetworkAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
+		744B214F2F771B4F00F2A8EB /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		744B21502F771B4F00F2A8EB /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
+		744B21512F771B4F00F2A8EB /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		744B21522F771B4F00F2A8EB /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
+		744B21532F771B4F00F2A8EB /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
+		744B21542F771B4F00F2A8EB /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		744B21552F771B4F00F2A8EB /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		744B21572F771B4F00F2A8EB /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		744B21582F771B4F00F2A8EB /* ActivityHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHubView.swift; sourceTree = "<group>"; };
+		744B21592F771B4F00F2A8EB /* ActivityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultView.swift; sourceTree = "<group>"; };
+		744B215A2F771B4F00F2A8EB /* AdventureHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureHomeView.swift; sourceTree = "<group>"; };
+		744B215B2F771B4F00F2A8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		744B215C2F771B4F00F2A8EB /* AppPolicyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPolicyLink.swift; sourceTree = "<group>"; };
+		744B215D2F771B4F00F2A8EB /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		744B215E2F771B4F00F2A8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744B215F2F771B4F00F2A8EB /* CavernEchoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesView.swift; sourceTree = "<group>"; };
+		744B21602F771B4F00F2A8EB /* CavernEchoesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernEchoesViewModel.swift; sourceTree = "<group>"; };
+		744B21612F771B4F00F2A8EB /* CavernTonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernTonePlayer.swift; sourceTree = "<group>"; };
+		744B21622F771B4F00F2A8EB /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		744B21632F771B4F00F2A8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		744B21642F771B4F00F2A8EB /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		744B21652F771B4F00F2A8EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		744B21662F771B4F00F2A8EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		744B21672F771B4F00F2A8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744B21682F771B4F00F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		744B216A2F771B4F00F2A8EB /* LostTempleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleView.swift; sourceTree = "<group>"; };
+		744B216B2F771B4F00F2A8EB /* LostTempleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTempleViewModel.swift; sourceTree = "<group>"; };
+		744B216C2F771B4F00F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		744B216E2F771B4F00F2A8EB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		744B216F2F771B4F00F2A8EB /* MysticForestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestView.swift; sourceTree = "<group>"; };
+		744B21702F771B4F00F2A8EB /* MysticForestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestViewModel.swift; sourceTree = "<group>"; };
+		744B21712F771B4F00F2A8EB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		744B21722F771B4F00F2A8EB /* PargrexslulmorBrelden.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PargrexslulmorBrelden.entitlements; sourceTree = "<group>"; };
+		744B21732F771B4F00F2A8EB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		744B21742F771B4F00F2A8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		744B21752F771B4F00F2A8EB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		744B21762F771B4F00F2A8EB /* SharedAdventureUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAdventureUI.swift; sourceTree = "<group>"; };
+		744B21772F771B4F00F2A8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		744B21A42F771B5800F2A8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744B21A52F771B5800F2A8EB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		9ADD5D90902285A152E358F9 /* Pods-PargrexslulmorBrelden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PargrexslulmorBrelden.release.xcconfig"; path = "Target Support Files/Pods-PargrexslulmorBrelden/Pods-PargrexslulmorBrelden.release.xcconfig"; sourceTree = "<group>"; };
+		A10000112F80000100000001 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC992493C4F88A6D2F4182C6 /* Pods-PargrexslulmorBrelden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PargrexslulmorBrelden.debug.xcconfig"; path = "Target Support Files/Pods-PargrexslulmorBrelden/Pods-PargrexslulmorBrelden.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +140,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000032F80000100000001 /* FirebaseCore in Frameworks */,
+				746E08892F76924800E679AA /* FirebaseMessaging in Frameworks */,
+				746E08842F7691A200E679AA /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000172F80000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000022F80000100000001 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +160,8 @@
 		7400A1C92F72EEB9006B47E2 = {
 			isa = PBXGroup;
 			children = (
-				7400A3A82F7323E9006B47E2 /* PargrexslulmorBrelden */,
+				744B21782F771B4F00F2A8EB /* PargrexslulmorBrelden */,
+				744B21A62F771B5800F2A8EB /* NotificationServiceExtension */,
 				7400A1D32F72EEB9006B47E2 /* Products */,
 				D26CB79BE0396BE7261939E6 /* Pods */,
 				D8DFBC9B503E3BE4A696D149 /* Frameworks */,
@@ -98,44 +172,77 @@
 			isa = PBXGroup;
 			children = (
 				7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */,
+				A10000112F80000100000001 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7400A3A82F7323E9006B47E2 /* PargrexslulmorBrelden */ = {
+		744B21562F771B4F00F2A8EB /* Loading */ = {
 			isa = PBXGroup;
 			children = (
-				7400A3892F7323E9006B47E2 /* AchievementsView.swift */,
-				7400A38A2F7323E9006B47E2 /* ActivityHubView.swift */,
-				7400A38B2F7323E9006B47E2 /* ActivityResultView.swift */,
-				7400A38C2F7323E9006B47E2 /* AdventureHomeView.swift */,
-				7400A38D2F7323E9006B47E2 /* AppDelegate.swift */,
-				7400A38E2F7323E9006B47E2 /* AppPolicyLink.swift */,
-				7400A38F2F7323E9006B47E2 /* AppStorage.swift */,
-				7400A3902F7323E9006B47E2 /* Assets.xcassets */,
-				7400A3912F7323E9006B47E2 /* CavernEchoesView.swift */,
-				7400A3922F7323E9006B47E2 /* CavernEchoesViewModel.swift */,
-				7400A3932F7323E9006B47E2 /* CavernTonePlayer.swift */,
-				7400A3942F7323E9006B47E2 /* Color+App.swift */,
-				7400A3952F7323E9006B47E2 /* ContentView.swift */,
-				7400A3962F7323E9006B47E2 /* GameModels.swift */,
-				7400A3972F7323E9006B47E2 /* HomeView.swift */,
-				7400A3982F7323E9006B47E2 /* Info.plist */,
-				7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */,
-				7400A39B2F7323E9006B47E2 /* LostTempleView.swift */,
-				7400A39C2F7323E9006B47E2 /* LostTempleViewModel.swift */,
-				7400A39E2F7323E9006B47E2 /* Main.storyboard */,
-				7400A39F2F7323E9006B47E2 /* MainTabView.swift */,
-				7400A3A02F7323E9006B47E2 /* MysticForestView.swift */,
-				7400A3A12F7323E9006B47E2 /* MysticForestViewModel.swift */,
-				7400A3A22F7323E9006B47E2 /* OnboardingView.swift */,
-				7400A3A32F7323E9006B47E2 /* RootView.swift */,
-				7400A3A42F7323E9006B47E2 /* SceneDelegate.swift */,
-				7400A3A52F7323E9006B47E2 /* SettingsView.swift */,
-				7400A3A62F7323E9006B47E2 /* SharedAdventureUI.swift */,
-				7400A3A72F7323E9006B47E2 /* ViewController.swift */,
+				744B21492F771B4F00F2A8EB /* AppsFlyerManager.swift */,
+				744B214A2F771B4F00F2A8EB /* ConfigManager.swift */,
+				744B214B2F771B4F00F2A8EB /* LoadingManager.swift */,
+				744B214C2F771B4F00F2A8EB /* LoadingView.swift */,
+				744B214D2F771B4F00F2A8EB /* LoadingViewController.swift */,
+				744B214E2F771B4F00F2A8EB /* NetworkAvailability.swift */,
+				744B214F2F771B4F00F2A8EB /* NoInternetView.swift */,
+				744B21502F771B4F00F2A8EB /* NotificationPermissionManager.swift */,
+				744B21512F771B4F00F2A8EB /* NotificationPermissionView.swift */,
+				744B21522F771B4F00F2A8EB /* NotificationPermissionViewController.swift */,
+				744B21532F771B4F00F2A8EB /* PushNotificationURLRouter.swift */,
+				744B21542F771B4F00F2A8EB /* UserAgentBuilder.swift */,
+				744B21552F771B4F00F2A8EB /* WebviewVC.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		744B21782F771B4F00F2A8EB /* PargrexslulmorBrelden */ = {
+			isa = PBXGroup;
+			children = (
+				744B21562F771B4F00F2A8EB /* Loading */,
+				744B21572F771B4F00F2A8EB /* AchievementsView.swift */,
+				744B21582F771B4F00F2A8EB /* ActivityHubView.swift */,
+				744B21592F771B4F00F2A8EB /* ActivityResultView.swift */,
+				744B215A2F771B4F00F2A8EB /* AdventureHomeView.swift */,
+				744B215B2F771B4F00F2A8EB /* AppDelegate.swift */,
+				744B215C2F771B4F00F2A8EB /* AppPolicyLink.swift */,
+				744B215D2F771B4F00F2A8EB /* AppStorage.swift */,
+				744B215E2F771B4F00F2A8EB /* Assets.xcassets */,
+				744B215F2F771B4F00F2A8EB /* CavernEchoesView.swift */,
+				744B21602F771B4F00F2A8EB /* CavernEchoesViewModel.swift */,
+				744B21612F771B4F00F2A8EB /* CavernTonePlayer.swift */,
+				744B21622F771B4F00F2A8EB /* Color+App.swift */,
+				744B21632F771B4F00F2A8EB /* ContentView.swift */,
+				744B21642F771B4F00F2A8EB /* GameModels.swift */,
+				744B21652F771B4F00F2A8EB /* GoogleService-Info.plist */,
+				744B21662F771B4F00F2A8EB /* HomeView.swift */,
+				744B21672F771B4F00F2A8EB /* Info.plist */,
+				744B21692F771B4F00F2A8EB /* LaunchScreen.storyboard */,
+				744B216A2F771B4F00F2A8EB /* LostTempleView.swift */,
+				744B216B2F771B4F00F2A8EB /* LostTempleViewModel.swift */,
+				744B216D2F771B4F00F2A8EB /* Main.storyboard */,
+				744B216E2F771B4F00F2A8EB /* MainTabView.swift */,
+				744B216F2F771B4F00F2A8EB /* MysticForestView.swift */,
+				744B21702F771B4F00F2A8EB /* MysticForestViewModel.swift */,
+				744B21712F771B4F00F2A8EB /* OnboardingView.swift */,
+				744B21722F771B4F00F2A8EB /* PargrexslulmorBrelden.entitlements */,
+				744B21732F771B4F00F2A8EB /* RootView.swift */,
+				744B21742F771B4F00F2A8EB /* SceneDelegate.swift */,
+				744B21752F771B4F00F2A8EB /* SettingsView.swift */,
+				744B21762F771B4F00F2A8EB /* SharedAdventureUI.swift */,
+				744B21772F771B4F00F2A8EB /* ViewController.swift */,
 			);
 			path = PargrexslulmorBrelden;
+			sourceTree = "<group>";
+		};
+		744B21A62F771B5800F2A8EB /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				744B21A42F771B5800F2A8EB /* Info.plist */,
+				744B21A52F771B5800F2A8EB /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		D26CB79BE0396BE7261939E6 /* Pods */ = {
@@ -166,15 +273,42 @@
 				7400A1CE2F72EEB9006B47E2 /* Sources */,
 				7400A1CF2F72EEB9006B47E2 /* Frameworks */,
 				7400A1D02F72EEB9006B47E2 /* Resources */,
+				A10000182F80000100000001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A100001B2F80000100000001 /* PBXTargetDependency */,
+			);
+			name = PargrexslulmorBrelden;
+			packageProductDependencies = (
+				746E08832F7691A200E679AA /* AppsFlyerLib-Static */,
+				746E08882F76924800E679AA /* FirebaseMessaging */,
+				A10000232F80000100000001 /* FirebaseCore */,
+			);
+			productName = PargrexslulmorBrelden;
+			productReference = 7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000142F80000100000001 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100001F2F80000100000001 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				A10000162F80000100000001 /* Sources */,
+				A10000172F80000100000001 /* Frameworks */,
+				A10000192F80000100000001 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PargrexslulmorBrelden;
-			productName = PargrexslulmorBrelden;
-			productReference = 7400A1D22F72EEB9006B47E2 /* PargrexslulmorBrelden.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				A10000222F80000100000001 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = A10000112F80000100000001 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,6 +322,17 @@
 				TargetAttributes = {
 					7400A1D12F72EEB9006B47E2 = {
 						CreatedOnToolsVersion = 26.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					A10000142F80000100000001 = {
+						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
@@ -200,11 +345,16 @@
 				Base,
 			);
 			mainGroup = 7400A1C92F72EEB9006B47E2;
+			packageReferences = (
+				746E08822F7691A200E679AA /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				746E08852F76924800E679AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7400A1D32F72EEB9006B47E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7400A1D12F72EEB9006B47E2 /* PargrexslulmorBrelden */,
+				A10000142F80000100000001 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -214,9 +364,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7400A3C22F7323E9006B47E2 /* Assets.xcassets in Resources */,
-				7400A3C42F7323E9006B47E2 /* LaunchScreen.storyboard in Resources */,
-				7400A3C52F7323E9006B47E2 /* Main.storyboard in Resources */,
+				744B219F2F771B4F00F2A8EB /* Assets.xcassets in Resources */,
+				744B21A02F771B4F00F2A8EB /* GoogleService-Info.plist in Resources */,
+				744B21A22F771B4F00F2A8EB /* LaunchScreen.storyboard in Resources */,
+				744B21A32F771B4F00F2A8EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000192F80000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,49 +410,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7400A3A92F7323E9006B47E2 /* AchievementsView.swift in Sources */,
-				7400A3AA2F7323E9006B47E2 /* ActivityHubView.swift in Sources */,
-				7400A3AB2F7323E9006B47E2 /* ActivityResultView.swift in Sources */,
-				7400A3AC2F7323E9006B47E2 /* AdventureHomeView.swift in Sources */,
-				7400A3AD2F7323E9006B47E2 /* AppDelegate.swift in Sources */,
-				7400A3AE2F7323E9006B47E2 /* AppPolicyLink.swift in Sources */,
-				7400A3AF2F7323E9006B47E2 /* AppStorage.swift in Sources */,
-				7400A3B02F7323E9006B47E2 /* CavernEchoesView.swift in Sources */,
-				7400A3B12F7323E9006B47E2 /* CavernEchoesViewModel.swift in Sources */,
-				7400A3B22F7323E9006B47E2 /* CavernTonePlayer.swift in Sources */,
-				7400A3B32F7323E9006B47E2 /* Color+App.swift in Sources */,
-				7400A3B42F7323E9006B47E2 /* ContentView.swift in Sources */,
-				7400A3B52F7323E9006B47E2 /* GameModels.swift in Sources */,
-				7400A3B62F7323E9006B47E2 /* HomeView.swift in Sources */,
-				7400A3B72F7323E9006B47E2 /* LostTempleView.swift in Sources */,
-				7400A3B82F7323E9006B47E2 /* LostTempleViewModel.swift in Sources */,
-				7400A3B92F7323E9006B47E2 /* MainTabView.swift in Sources */,
-				7400A3BA2F7323E9006B47E2 /* MysticForestView.swift in Sources */,
-				7400A3BB2F7323E9006B47E2 /* MysticForestViewModel.swift in Sources */,
-				7400A3BC2F7323E9006B47E2 /* OnboardingView.swift in Sources */,
-				7400A3BD2F7323E9006B47E2 /* RootView.swift in Sources */,
-				7400A3BE2F7323E9006B47E2 /* SceneDelegate.swift in Sources */,
-				7400A3BF2F7323E9006B47E2 /* SettingsView.swift in Sources */,
-				7400A3C02F7323E9006B47E2 /* SharedAdventureUI.swift in Sources */,
-				7400A3C12F7323E9006B47E2 /* ViewController.swift in Sources */,
+				744B21792F771B4F00F2A8EB /* AppsFlyerManager.swift in Sources */,
+				744B217A2F771B4F00F2A8EB /* ConfigManager.swift in Sources */,
+				744B217B2F771B4F00F2A8EB /* LoadingManager.swift in Sources */,
+				744B217C2F771B4F00F2A8EB /* LoadingView.swift in Sources */,
+				744B217D2F771B4F00F2A8EB /* LoadingViewController.swift in Sources */,
+				744B217E2F771B4F00F2A8EB /* NetworkAvailability.swift in Sources */,
+				744B217F2F771B4F00F2A8EB /* NoInternetView.swift in Sources */,
+				744B21802F771B4F00F2A8EB /* NotificationPermissionManager.swift in Sources */,
+				744B21812F771B4F00F2A8EB /* NotificationPermissionView.swift in Sources */,
+				744B21822F771B4F00F2A8EB /* NotificationPermissionViewController.swift in Sources */,
+				744B21832F771B4F00F2A8EB /* PushNotificationURLRouter.swift in Sources */,
+				744B21842F771B4F00F2A8EB /* UserAgentBuilder.swift in Sources */,
+				744B21852F771B4F00F2A8EB /* WebviewVC.swift in Sources */,
+				744B21862F771B4F00F2A8EB /* AchievementsView.swift in Sources */,
+				744B21872F771B4F00F2A8EB /* ActivityHubView.swift in Sources */,
+				744B21882F771B4F00F2A8EB /* ActivityResultView.swift in Sources */,
+				744B21892F771B4F00F2A8EB /* AdventureHomeView.swift in Sources */,
+				744B218A2F771B4F00F2A8EB /* AppDelegate.swift in Sources */,
+				744B218B2F771B4F00F2A8EB /* AppPolicyLink.swift in Sources */,
+				744B218C2F771B4F00F2A8EB /* AppStorage.swift in Sources */,
+				744B218D2F771B4F00F2A8EB /* CavernEchoesView.swift in Sources */,
+				744B218E2F771B4F00F2A8EB /* CavernEchoesViewModel.swift in Sources */,
+				744B218F2F771B4F00F2A8EB /* CavernTonePlayer.swift in Sources */,
+				744B21902F771B4F00F2A8EB /* Color+App.swift in Sources */,
+				744B21912F771B4F00F2A8EB /* ContentView.swift in Sources */,
+				744B21922F771B4F00F2A8EB /* GameModels.swift in Sources */,
+				744B21932F771B4F00F2A8EB /* HomeView.swift in Sources */,
+				744B21942F771B4F00F2A8EB /* LostTempleView.swift in Sources */,
+				744B21952F771B4F00F2A8EB /* LostTempleViewModel.swift in Sources */,
+				744B21962F771B4F00F2A8EB /* MainTabView.swift in Sources */,
+				744B21972F771B4F00F2A8EB /* MysticForestView.swift in Sources */,
+				744B21982F771B4F00F2A8EB /* MysticForestViewModel.swift in Sources */,
+				744B21992F771B4F00F2A8EB /* OnboardingView.swift in Sources */,
+				744B219A2F771B4F00F2A8EB /* RootView.swift in Sources */,
+				744B219B2F771B4F00F2A8EB /* SceneDelegate.swift in Sources */,
+				744B219C2F771B4F00F2A8EB /* SettingsView.swift in Sources */,
+				744B219D2F771B4F00F2A8EB /* SharedAdventureUI.swift in Sources */,
+				744B219E2F771B4F00F2A8EB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000162F80000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744B21A82F771B5800F2A8EB /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A100001B2F80000100000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000142F80000100000001 /* NotificationServiceExtension */;
+			targetProxy = A100001A2F80000100000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		7400A39A2F7323E9006B47E2 /* LaunchScreen.storyboard */ = {
+		744B21692F771B4F00F2A8EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7400A3992F7323E9006B47E2 /* Base */,
+				744B21682F771B4F00F2A8EB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		7400A39E2F7323E9006B47E2 /* Main.storyboard */ = {
+		744B216D2F771B4F00F2A8EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7400A39D2F7323E9006B47E2 /* Base */,
+				744B216C2F771B4F00F2A8EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -306,9 +493,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC992493C4F88A6D2F4182C6 /* Pods-PargrexslulmorBrelden.debug.xcconfig */;
 			buildSettings = {
+				APS_ENVIRONMENT = development;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PargrexslulmorBrelden/PargrexslulmorBrelden.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -346,9 +535,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9ADD5D90902285A152E358F9 /* Pods-PargrexslulmorBrelden.release.xcconfig */;
 			buildSettings = {
+				APS_ENVIRONMENT = production;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PargrexslulmorBrelden/PargrexslulmorBrelden.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -365,7 +556,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -501,6 +692,50 @@
 			};
 			name = Release;
 		};
+		A10000202F80000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000212F80000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.far.sgdrtr92df1l.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -522,7 +757,58 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A100001F2F80000100000001 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000202F80000100000001 /* Debug */,
+				A10000212F80000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		746E08822F7691A200E679AA /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+		746E08852F76924800E679AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		746E08832F7691A200E679AA /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746E08822F7691A200E679AA /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		746E08882F76924800E679AA /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746E08852F76924800E679AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A10000222F80000100000001 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746E08852F76924800E679AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A10000232F80000100000001 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746E08852F76924800E679AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7400A1CA2F72EEB9006B47E2 /* Project object */;
 }
