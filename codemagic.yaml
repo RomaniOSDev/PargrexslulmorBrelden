@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "PargrexslulmorBrelden.xcworkspace"
           XCODE_SCHEME: "PargrexslulmorBrelden"
           BUNDLE_ID: "com.far.sgdrtr92df1l"
-            EXTENSION_BUNDLE_ID: "com.far.sgdrtr92df1l.NotificationServiceExtension"
+          EXTENSION_BUNDLE_ID: "com.far.sgdrtr92df1l.NotificationServiceExtension"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
@@ -50,3 +50,4 @@ workflows:
             key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
             issuer_id: $APP_STORE_CONNECT_ISSUER_ID
             submit_to_testflight: false
+
